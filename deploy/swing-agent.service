@@ -1,0 +1,19 @@
+# Turbo mode on an always-on Linux box (Oracle Cloud Always Free VM, Raspberry Pi, old PC).
+# 1) git clone your repo to /opt/swing-agent and: pip install -r requirements-agent.txt
+# 2) put your secrets in /opt/swing-agent/.env  (KEY=value per line, same names as the GitHub secrets,
+#    plus GITHUB_TOKEN=<fine-grained PAT, contents:write on this repo> and GITHUB_REPOSITORY=you/repo)
+# 3) sudo cp deploy/swing-agent.service /etc/systemd/system/ && sudo systemctl enable --now swing-agent
+[Unit]
+Description=Swing Agent (60s pulse)
+After=network-online.target
+
+[Service]
+WorkingDirectory=/opt/swing-agent
+EnvironmentFile=/opt/swing-agent/.env
+Environment=PULSE_SECONDS=60
+ExecStart=/usr/bin/python3 -m agent.run_loop
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
