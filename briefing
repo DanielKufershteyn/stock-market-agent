@@ -1,0 +1,30 @@
+name: briefing
+on:
+  schedule:
+    - cron: "55 21 * * 1-5"
+  workflow_dispatch:
+concurrency:
+  group: briefing
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-agent.txt
+      - run: pip install -r requirements-agent.txt
+      - name: Run
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/run_and_publish.sh agent.run_briefing briefing.json
