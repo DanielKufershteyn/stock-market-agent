@@ -1,0 +1,195 @@
+benchmark: SPY
+
+# ~135 US stocks across industries. Edit freely; any US ticker works.
+# (Bad/renamed tickers are skipped automatically.)
+watchlist:
+  mega_tech:   [MSFT, AAPL, GOOGL, META, AMZN, ORCL, NFLX]
+  software:    [CRM, NOW, ADBE, SNOW, DDOG, NET, CRWD, PANW, ZS, PLTR, SHOP, UBER, DASH]
+  semis_ai:    [NVDA, AMD, AVGO, TSM, MU, ARM, SMCI, AMAT, LRCX, INTC, QCOM, MRVL, ANET, VRT, DELL]
+  space:       [RKLB, ASTS, LUNR, RDW, PL, JOBY, ACHR]
+  defense:     [LMT, NOC, RTX, KTOS, AVAV, GD]
+  quantum:     [IONQ, RGTI, QBTS]
+  banks:       [JPM, GS, MS, BAC, WFC, C, SCHW, BX, KKR, BLK]
+  payments:    [V, MA, PYPL, AFRM, SOFI, UPST]
+  crypto:      [COIN, HOOD, MSTR, MARA, RIOT]
+  healthcare:  [LLY, NVO, UNH, ABBV, PFE, MRK, VRTX, REGN, ISRG, TMO, HIMS]
+  biotech:     [MRNA, CRSP]
+  energy:      [XOM, CVX, OXY, SLB, COP, LNG]
+  clean_power: [FSLR, ENPH, CEG, VST, OKLO, SMR]
+  autos:       [TSLA, F, GM, RIVN, LCID]
+  industrials: [CAT, DE, GE, BA, HON, URI, ETN]
+  consumer:    [WMT, COST, HD, NKE, SBUX, MCD, LULU, TGT, CMG, DIS, SPOT, ABNB]
+  materials:   [FCX, NEM, ALB, MP, CCJ, UEC, SCCO]
+  transport:   [DAL, UAL, FDX]
+
+trade:
+  # PERCENT MODE (active): aim for big moves with a stop that is never tighter than normal daily noise.
+  stop_pct: 6          # stop = entry - max(6% of price, atr_stop * ATR)
+  target_pct: 20       # target = entry + 20%
+  atr_stop: 1.5        # floor for the stop in ATR (average daily range) units
+  max_hold_days: 40    # time stop. A 20% move needs weeks, not days.
+  # ATR MODE (old): delete or comment out stop_pct / target_pct above, then atr_target is used:
+  atr_target: 3.0
+  cost_pct: 0.001      # 0.1% per side, commissions + slippage
+
+alerts:
+  spike_atr_mult: 2.0        # live move bigger than 2x daily ATR (pre-market and after-hours included)
+  spike_volume_mult: 3.0     # or volume running 3x its normal pace (regular session only)
+  min_news_importance: 4     # 1-5; at or above this the agent builds a recommendation
+  min_setup_score: 70        # end-of-day setups at/above this are pushed
+  max_alerts_per_run: 6
+  recommend_cooldown_min: 120   # don't re-recommend the same stock within 2h (unless new 5/5 news)
+  max_recs_per_pulse: 4
+  max_new_items_per_run: 60
+  news_slice_size: 30        # baseline news is refreshed for 30 stocks per pulse, rotating
+  llm_max_calls_per_day: 200 # protects the free Gemini quota
+
+social:
+  stocktwits: true           # free, unofficial, may be blocked from cloud IPs (best effort)
+  x:
+    enabled: false           # needs X_BEARER_TOKEN secret AND prepaid X API credits (no free tier)
+    max_posts_per_day: 200   # hard cap; ~ $1/day at $0.005 per post read
+
+# Free RSS news feeds. Every article is matched to your stocks by $TICKER, TICKER or company name.
+# Articles about the market in general (Fed, inflation, tariffs...) are kept as "MACRO".
+# Feeds that don't answer are skipped and listed in status.json. Add or remove any feed you like.
+rss_sources:
+  - {name: ZeroHedge,        url: "https://feeds.feedburner.com/zerohedge/feed"}
+  - {name: CNBC Top News,    url: "https://www.cnbc.com/id/100003114/device/rss/rss.html"}
+  - {name: CNBC Finance,     url: "https://www.cnbc.com/id/10000664/device/rss/rss.html"}
+  - {name: MarketWatch,      url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"}
+  - {name: Yahoo Finance,    url: "https://finance.yahoo.com/news/rssindex"}
+  - {name: Seeking Alpha,    url: "https://seekingalpha.com/market_currents.xml"}
+  - {name: Federal Reserve,  url: "https://www.federalreserve.gov/feeds/press_all.xml", macro: true}
+
+# Extra names an article might use for a stock (the SEC legal name is matched automatically).
+aliases:
+  GOOGL: [Google, Alphabet]
+  META: [Meta, Facebook, Instagram]
+  AMZN: [Amazon, AWS]
+  MSFT: [Microsoft]
+  AAPL: [Apple, iPhone]
+  TSM: [TSMC, Taiwan Semiconductor]
+  AVGO: [Broadcom]
+  COIN: [Coinbase]
+  HOOD: [Robinhood]
+  MSTR: [MicroStrategy, Strategy Inc]
+  RKLB: [Rocket Lab]
+  ASTS: [AST SpaceMobile]
+  LUNR: [Intuitive Machines]
+  PL: [Planet Labs]
+  JOBY: [Joby Aviation]
+  ACHR: [Archer Aviation]
+  LLY: [Eli Lilly]
+  NVO: [Novo Nordisk, Ozempic, Wegovy]
+  UNH: [UnitedHealth]
+  DASH: [DoorDash]
+  SMCI: [Super Micro]
+  PLTR: [Palantir]
+  CRWD: [CrowdStrike]
+  PANW: [Palo Alto Networks]
+  TSLA: [Tesla]
+  NFLX: [Netflix]
+  NVDA: [Nvidia]
+  AMD: [Advanced Micro Devices]
+  INTC: [Intel]
+  MU: [Micron]
+  JPM: [JPMorgan]
+  GS: [Goldman Sachs]
+  MS: [Morgan Stanley]
+  BAC: [Bank of America]
+  WFC: [Wells Fargo]
+  V: [Visa]
+  MA: [Mastercard]
+  PYPL: [PayPal]
+  XOM: [Exxon]
+  CVX: [Chevron]
+  LMT: [Lockheed Martin]
+  NOC: [Northrop Grumman]
+  RTX: [Raytheon]
+  BA: [Boeing]
+  GE: [GE Aerospace, General Electric]
+  CAT: [Caterpillar]
+  DE: [John Deere, Deere]
+  WMT: [Walmart]
+  COST: [Costco]
+  HD: [Home Depot]
+  NKE: [Nike]
+  SBUX: [Starbucks]
+  MCD: [McDonald's, McDonalds]
+  DIS: [Disney]
+  ABNB: [Airbnb]
+  FCX: [Freeport-McMoRan]
+  NEM: [Newmont]
+  CCJ: [Cameco]
+  OKLO: [Oklo]
+  SMR: [NuScale]
+  CEG: [Constellation Energy]
+  VST: [Vistra]
+  SPOT: [Spotify]
+  SHOP: [Shopify]
+  UBER: [Uber]
+  CRM: [Salesforce]
+  ADBE: [Adobe]
+  SNOW: [Snowflake]
+  DDOG: [Datadog]
+  NET: [Cloudflare]
+  ZS: [Zscaler]
+  ORCL: [Oracle]
+  AMAT: [Applied Materials]
+  LRCX: [Lam Research]
+  QCOM: [Qualcomm]
+  MRVL: [Marvell]
+  ANET: [Arista]
+  VRT: [Vertiv]
+  DELL: [Dell]
+  ARM: [Arm Holdings]
+  IONQ: [IonQ]
+  RGTI: [Rigetti]
+  QBTS: [D-Wave]
+  SCHW: [Schwab]
+  BX: [Blackstone]
+  KKR: [KKR]
+  BLK: [BlackRock]
+  SOFI: [SoFi]
+  AFRM: [Affirm]
+  UPST: [Upstart]
+  MARA: [Marathon Digital, Marathon Holdings]
+  RIOT: [Riot Platforms]
+  PFE: [Pfizer]
+  MRK: [Merck]
+  ABBV: [AbbVie]
+  VRTX: [Vertex Pharmaceuticals]
+  REGN: [Regeneron]
+  ISRG: [Intuitive Surgical]
+  TMO: [Thermo Fisher]
+  HIMS: [Hims & Hers]
+  MRNA: [Moderna]
+  CRSP: [CRISPR Therapeutics]
+  COP: [ConocoPhillips]
+  OXY: [Occidental]
+  SLB: [Schlumberger]
+  LNG: [Cheniere]
+  FSLR: [First Solar]
+  ENPH: [Enphase]
+  F: [Ford Motor, Ford]
+  GM: [General Motors]
+  RIVN: [Rivian]
+  LCID: [Lucid]
+  HON: [Honeywell]
+  URI: [United Rentals]
+  ETN: [Eaton]
+  LULU: [Lululemon]
+  CMG: [Chipotle]
+  ALB: [Albemarle]
+  MP: [MP Materials]
+  UEC: [Uranium Energy]
+  SCCO: [Southern Copper]
+  DAL: [Delta Air Lines]
+  UAL: [United Airlines]
+  FDX: [FedEx]
+  KTOS: [Kratos]
+  AVAV: [AeroVironment]
+  GD: [General Dynamics]
+  RDW: [Redwire]
+  TGT: [Target Corp]
