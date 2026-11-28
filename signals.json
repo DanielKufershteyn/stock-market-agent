@@ -1,0 +1,213 @@
+{
+ "updated": "2026-11-27T21:31:41+00:00",
+ "signals": [
+  {
+   "ticker": "COP",
+   "group": "energy",
+   "setup": "pullback",
+   "desc": "Uptrend pulling back to the 20-day average, RSI cooled off",
+   "score": 62,
+   "close": 136.8,
+   "rsi": 48.6,
+   "vol_ratio": 0.4,
+   "rel_strength_3m": 10.7,
+   "last_bar": "2026-11-27",
+   "plan": {
+    "entry": 136.8,
+    "entry_zone": [
+     135.85,
+     137.18
+    ],
+    "stop": 128.59,
+    "target": 164.16,
+    "stop_pct": 6.0,
+    "target_pct": 20.0,
+    "rr": 3.33,
+    "atr": 3.81,
+    "max_hold_days": 40
+   },
+   "backtest": {
+    "all": {
+     "n": 7,
+     "win_rate": 42.9,
+     "avg_ret_pct": 1.37,
+     "avg_r": 0.23,
+     "profit_factor": 1.38,
+     "max_dd_pct": -12.3
+    },
+    "in": {
+     "n": 1,
+     "win_rate": 0.0,
+     "avg_ret_pct": -6.2,
+     "avg_r": -1.03,
+     "profit_factor": 0.0,
+     "max_dd_pct": 0.0
+    },
+    "out": {
+     "n": 6,
+     "win_rate": 50.0,
+     "avg_ret_pct": 2.63,
+     "avg_r": 0.44,
+     "profit_factor": 1.83,
+     "max_dd_pct": -12.3
+    }
+   }
+  },
+  {
+   "ticker": "DAL",
+   "group": "transport",
+   "setup": "pullback",
+   "desc": "Uptrend pulling back to the 20-day average, RSI cooled off",
+   "score": 62,
+   "close": 84.82,
+   "rsi": 51.6,
+   "vol_ratio": 0.3,
+   "rel_strength_3m": 11.3,
+   "last_bar": "2026-11-27",
+   "plan": {
+    "entry": 84.82,
+    "entry_zone": [
+     84.03,
+     85.14
+    ],
+    "stop": 79.73,
+    "target": 101.78,
+    "stop_pct": 6.0,
+    "target_pct": 20.0,
+    "rr": 3.33,
+    "atr": 3.17,
+    "max_hold_days": 40
+   },
+   "backtest": {
+    "all": {
+     "n": 9,
+     "win_rate": 55.6,
+     "avg_ret_pct": 5.14,
+     "avg_r": 0.83,
+     "profit_factor": 2.83,
+     "max_dd_pct": -12.0
+    },
+    "in": {
+     "n": 4,
+     "win_rate": 25.0,
+     "avg_ret_pct": 0.3,
+     "avg_r": 0.05,
+     "profit_factor": 1.06,
+     "max_dd_pct": -12.0
+    },
+    "out": {
+     "n": 5,
+     "win_rate": 80.0,
+     "avg_ret_pct": 9.01,
+     "avg_r": 1.45,
+     "profit_factor": 7.7,
+     "max_dd_pct": -6.7
+    }
+   }
+  },
+  {
+   "ticker": "VRTX",
+   "group": "healthcare",
+   "setup": "pullback",
+   "desc": "Uptrend pulling back to the 20-day average, RSI cooled off",
+   "score": 60,
+   "close": 534.57,
+   "rsi": 49.3,
+   "vol_ratio": 1.31,
+   "rel_strength_3m": 3.8,
+   "last_bar": "2026-11-27",
+   "plan": {
+    "entry": 534.57,
+    "entry_zone": [
+     529.51,
+     536.6
+    ],
+    "stop": 502.5,
+    "target": 641.48,
+    "stop_pct": 6.0,
+    "target_pct": 20.0,
+    "rr": 3.33,
+    "atr": 20.26,
+    "max_hold_days": 40
+   },
+   "backtest": {
+    "all": {
+     "n": 13,
+     "win_rate": 53.8,
+     "avg_ret_pct": -0.35,
+     "avg_r": -0.06,
+     "profit_factor": 0.91,
+     "max_dd_pct": -27.1
+    },
+    "in": {
+     "n": 9,
+     "win_rate": 44.4,
+     "avg_ret_pct": -1.47,
+     "avg_r": -0.25,
+     "profit_factor": 0.68,
+     "max_dd_pct": -27.1
+    },
+    "out": {
+     "n": 4,
+     "win_rate": 75.0,
+     "avg_ret_pct": 2.18,
+     "avg_r": 0.36,
+     "profit_factor": 2.4,
+     "max_dd_pct": -6.2
+    }
+   }
+  },
+  {
+   "ticker": "BLK",
+   "group": "banks",
+   "setup": "pullback",
+   "desc": "Uptrend pulling back to the 20-day average, RSI cooled off",
+   "score": 58,
+   "close": 1166.96,
+   "rsi": 52.0,
+   "vol_ratio": 0.55,
+   "rel_strength_3m": 5.8,
+   "last_bar": "2026-11-27",
+   "plan": {
+    "entry": 1166.96,
+    "entry_zone": [
+     1158.29,
+     1170.43
+    ],
+    "stop": 1096.94,
+    "target": 1400.35,
+    "stop_pct": 6.0,
+    "target_pct": 20.0,
+    "rr": 3.33,
+    "atr": 34.66,
+    "max_hold_days": 40
+   },
+   "backtest": {
+    "all": {
+     "n": 9,
+     "win_rate": 33.3,
+     "avg_ret_pct": 0.27,
+     "avg_r": 0.05,
+     "profit_factor": 1.09,
+     "max_dd_pct": -15.5
+    },
+    "in": {
+     "n": 6,
+     "win_rate": 50.0,
+     "avg_ret_pct": 2.11,
+     "avg_r": 0.35,
+     "profit_factor": 1.81,
+     "max_dd_pct": -6.2
+    },
+    "out": {
+     "n": 3,
+     "win_rate": 0.0,
+     "avg_ret_pct": -3.41,
+     "avg_r": -0.57,
+     "profit_factor": 0.0,
+     "max_dd_pct": -6.7
+    }
+   }
+  }
+ ]
+}

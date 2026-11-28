@@ -1,0 +1,21 @@
+{
+ "updated": "2026-11-28T14:04:30+00:00",
+ "phase": "closed",
+ "live": 0,
+ "hot": 0,
+ "new_news": 60,
+ "recs": 0,
+ "alerts_sent": 0,
+ "rss": {
+  "ZeroHedge": 2,
+  "CNBC Top News": 5,
+  "CNBC Finance": 3,
+  "MarketWatch": 4,
+  "Yahoo Finance": "error",
+  "Seeking Alpha": 3,
+  "Federal Reserve": 0
+ },
+ "llm": [
+  "gemini"
+ ]
+}

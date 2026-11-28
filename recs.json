@@ -1,0 +1,1129 @@
+{
+ "updated": "2026-11-28T14:04:30+00:00",
+ "recs": [
+  {
+   "action": "watch",
+   "conviction": 2,
+   "why": "Strong earnings beat and raised guidance provide fundamental interest, but the stock remains in a clear downtrend below its 20, 50, and 200-day SMAs with weak relative strength.",
+   "risk": "Catching a falling knife in a heavy downtrend on below-average volume pace.",
+   "invalidation": "A sustained push above the 20-day SMA (259.46) on above-average volume.",
+   "source": "llm",
+   "ticker": "CEG",
+   "group": "clean_power",
+   "price": 238.3,
+   "move_pct": 1.28,
+   "move_atr": 0.22,
+   "vol_pace": 0.65,
+   "trend": "down",
+   "levels": {
+    "entry": 238.3,
+    "stop": 218.04,
+    "target": 285.96,
+    "stop_pct": 8.5,
+    "target_pct": 20.0,
+    "rr": 2.35,
+    "pullback_zone": [
+     256.08,
+     260.81
+    ]
+   },
+   "news": [
+    {
+     "title": "Constellation Energy beats earnings, raises 202...",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdFJpc0h5OTF0dEYtT2RjUmZndU52NWxVdU1QTC1LR0QtTVV0RkU2XzhSZ3U0MXRFN0d6czNWRU5jcHNobGs1cW4yUXlxTlpiNnpHNmNjbUFLTEhLV0xGcDR5N0tQN1ZtcFdOZXZ2RTJ6Z3hFWFpkN2UzRHlfT01DdlFFT0tOOGg4?oc=5",
+     "importance": 5,
+     "sentiment": "bullish"
+    },
+    {
+     "title": "Constellation Energy raises 2026 earnings guida...",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdlNtcW9ndHFLbjdqRVI4T2pnMER1Y3duVFZQY3BlX3ZTNlBSa2xTNnV1LUQ1Zk5JdVdOTjMwSm1paEljSDhISXBXZG95TVJ4bndkWU5aTFRNTXEtYVhlbUp4QkRTS1hwemROWllxQ29uNjhBRXN5aXNvM2MwTUk3UTdITUdJZnVBZG43YktUakxtYXF4eEp5ZG5ybHlidw?oc=5",
+     "importance": 5,
+     "sentiment": "bullish"
+    },
+    {
+     "title": "Constellation Energy Just Raised Its Forecast. Is the Stock Still a Buy?",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb081MFJIRXRkdUhiTFY4bEwzdWJ3ellZTFhiQ3NoVk1oNjJ2YkFFTkNGODV3Wmo4dWllNWo5cDJqRUhjZlN0MUZGZnRvNXpLbXVDV1Y5Uzgya2NTTWlvVGZOZVlHS0M2OEZKMy02N1dPc1RNZUxqcjIwLU5VZjJRa09ZVEJhbFh6cXdJWEhlRDg0R1lYZ2FPS2p6Rk5yRHVwcGF2R0ZpcnltRFBmc3M0Ykl4VQ?oc=5",
+     "importance": 4,
+     "sentiment": "bullish"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 0,
+     "bullish": 11,
+     "bearish": 1,
+     "samples": [
+      "$CEG seems like circular financing wears a power contract. utilities sign for demand the builders project, builders project demand the utilities fund, and ratep",
+      "oklo $OKLO has a 12 gw power purchase agreement with switch and a prepayment deal with meta for 1.2 gw in ohio \n \noklo is still pre-commercial. it is building s",
+      "@SwingPlay I think $CEG  is the mature play. Steady business and easier to just DCA instead of looking for quick alpha."
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-27T21:00:15+00:00",
+   "trigger": [
+    "news"
+   ]
+  },
+  {
+   "action": "wait_for_pullback",
+   "conviction": 2,
+   "why": "Stock dropped 9.4% on FDA delay news, breaking below SMA20. Uptrend remains intact above SMA50 and SMA200, but chasing current weakness is risky.",
+   "risk": "Bearish news flow and ongoing regulatory delays could pressure the stock further.",
+   "invalidation": "A decisive break below the 200-day SMA at 486.15.",
+   "source": "llm",
+   "ticker": "VRTX",
+   "group": "healthcare",
+   "price": 510.83,
+   "move_pct": -9.45,
+   "move_atr": -3.12,
+   "vol_pace": null,
+   "trend": "up",
+   "levels": {
+    "entry": 510.83,
+    "stop": 480.18,
+    "target": 613.0,
+    "stop_pct": 6.0,
+    "target_pct": 20.0,
+    "rr": 3.33,
+    "pullback_zone": [
+     538.68,
+     544.67
+    ]
+   },
+   "news": [
+    {
+     "title": "Vertex Pharmaceuticals (NASDAQ:VRTX) Drops 7% Pre-Market Today as the FDA Pushes Back Its Povetacicept Decision",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVElxOWRrS1JRS1NIYjVZV0h4QnZUbjRSMTZhR0ZQeXBrMWd1NEpyWDY2VVJmQ1ZoMl9wX2paakpKYWxvd2lvRk1EdDNfM0psTF9tWGV6T19QWEt1VTQwNlNoWkg2V2tnWUR5clZicFhMczlkX0pGSjR0V3RsbGJyOFJ5Qk9lVWMxTHRxbHh2eEplTzdBTmNOQVNjRDhNU0tIVUJZTTJUZ3A0ZmlVRTBjTEZPako1SzhULTd4eXQ2Y2M2UEV1cTcwXzd4aXpLVGFzbWQ3S1Jfak5Qdw?oc=5",
+     "importance": 5,
+     "sentiment": "bearish"
+    },
+    {
+     "title": "Vertex (VRTX) Stock Falls 7.3% Premarket Without Company News",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/vertex-vrtx-stock-falls-7-121533478.html?.tsrc=rss",
+     "importance": 4,
+     "sentiment": "bearish"
+    },
+    {
+     "title": "Vertex Pharmaceuticals Plunges On FDA Delay. It Could Have Been Worse.",
+     "link": "https://finance.yahoo.com/m/5642b5d4-503b-31eb-973c-cedf5e23fe70/vertex-pharmaceuticals.html?.tsrc=rss",
+     "importance": 4,
+     "sentiment": "bearish"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 12,
+     "bullish": 3,
+     "bearish": 2,
+     "samples": [
+      "$VRTX heading to $490\ud83e\udd14",
+      "$VRTX Wow...adding slowing.",
+      "$VRTX \n\nAdded"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-27T14:56:30+00:00",
+   "trigger": [
+    "price move",
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 2,
+   "why": "The stock is below major moving averages with bearish headlines around Nvidia shipment halts, despite an oversold RSI of 36.9 and recent bounce.",
+   "risk": "Ongoing sector-wide selloff and negative news flow could drive further downside toward recent lows.",
+   "invalidation": "A daily close back above the 20-day SMA at 348.16.",
+   "source": "llm",
+   "ticker": "DELL",
+   "group": "semis_ai",
+   "price": 310.01,
+   "move_pct": 4.36,
+   "move_atr": 0.34,
+   "vol_pace": null,
+   "trend": "mixed",
+   "levels": {
+    "entry": 310.01,
+    "stop": 252.95,
+    "target": 372.01,
+    "stop_pct": 18.4,
+    "target_pct": 20.0,
+    "rr": 1.09,
+    "pullback_zone": [
+     338.65,
+     351.96
+    ]
+   },
+   "news": [
+    {
+     "title": "Dell, Super Micro Under Pressure as Nvidia Halts Shipments to 4 Asian Countries",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc29CN1p6VGlQZFY1RHpjTkw5ODhpZXhrNmFac0E1SVhTUmxLS2NocmZmUGhLaWctc09UbjQwLW1HWGd5am1ORThxX3JhSFRMejJFV3ZrXzdzRVhRcGYwZEdnMVNKQnQ1MW9ac3pPMHZqaHBWLXoxZUNlZlp4ekk3SkpkZ3daYV8yU1A1UzdGNTljNFhzc2RYcmRpTmlBenpiZXhxOFk0VWx0ZktNbzBNUFN0MENHakdSeEtXeFhOSQ?oc=5",
+     "importance": 4,
+     "sentiment": "bearish"
+    },
+    {
+     "title": "DELL's AI Server Sales Surge: Can the Growth Momentum Continue?",
+     "link": "https://finance.yahoo.com/technology/ai/articles/dells-ai-server-sales-surge-160100190.html?.tsrc=rss",
+     "importance": 3,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "BofA resets Dell stock price target by $100 after record earnings",
+     "link": "https://www.thestreet.com/investing/stocks/dell-dell-technologies-bank-of-america-resets-dell-stock-price-target-by-100-after-record-q3-earnings?.tsrc=rss",
+     "importance": 3,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 30,
+     "bullish": 11,
+     "bearish": 3,
+     "samples": [
+      "$DELL i wish they reported earnings today \ud83d\ude22",
+      "$DELL \n\n325 close. Oversold and underpriced",
+      "vote $GLW"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-27T14:56:31+00:00",
+   "trigger": [
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 2,
+   "why": "Stock is in a downtrend below key SMAs with RSI at 35.1, but faces a major earnings catalyst with high implied volatility.",
+   "risk": "Options price in a 16% earnings swing, creating extreme gap risk.",
+   "invalidation": "A sharp earnings-driven breakdown below recent support.",
+   "source": "llm",
+   "ticker": "MRVL",
+   "group": "semis_ai",
+   "price": 135.6,
+   "move_pct": 3.57,
+   "move_atr": 0.28,
+   "vol_pace": null,
+   "trend": "mixed",
+   "levels": {
+    "entry": 135.6,
+    "stop": 110.63,
+    "target": 162.72,
+    "stop_pct": 18.4,
+    "target_pct": 20.0,
+    "rr": 1.09,
+    "pullback_zone": [
+     150.81,
+     156.63
+    ]
+   },
+   "news": [
+    {
+     "title": "Marvell Faces Critical Earnings Test Amid AI Chip Market Turmoil",
+     "link": "https://finance.yahoo.com/technology/ai/articles/marvell-faces-critical-earnings-test-112308097.html?.tsrc=rss",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "MRVL to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbWpQRFVMdExRMXZMZUFuSXc0d3ZhTWRFWG00MHRaV042emQxYWkzNUozYVhILXdwQkRmWWxvUkcxbVBWV1NIdnNqLXlFVEkwNHljMXpjMWpDWHg0NkswTUsxRkpmREJmR1BsTEppb1c4YVZ0ajVqNE5aYVdoM3g2Zk9kTEg5UU9iVmVPTVVxTl9SRTF2eXhaX3ZuN2NhemhBNkE?oc=5",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Marvell's Most Important Earnings Call Has Nothing To Do With Earnings (Preview) (NASDAQ:MRVL)",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd3c3VWF1UVNRaVdXNFFEUF9EV2U0NWxFZ0pobDhGWHlTRnNxVkFfOGdOOWZOVUt0YnR3RTlZSFU2NWt1dkNfZE9OWFc2TnF6T19TczBGRFJjX2E4RDROXzViRl9Da1Y0S0NaNDViRzQzNEJKNzJ1cVc0WTFvNm9DQ0RxeHB2TkhDendwbHR5SW5zVjFydWFqc2lPZ0liSHNvM21Ma3ZnQTJNUllHb1pZ?oc=5",
+     "importance": 3,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 7,
+     "bullish": 3,
+     "bearish": 0,
+     "samples": [
+      "$MRVL seems like who is the end customer is the whole question in the interconnect layer. chips sold into the build are not proof anyone outside the build needs",
+      "$MRVL America what are you going?? Open and it falls \ud83d\ude24",
+      "$MRVL market manipulation as usual"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-27T14:56:32+00:00",
+   "trigger": [
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 2,
+   "why": "The stock is in a clear multi-month downtrend trading well below key moving averages, despite bullish sales and dividend news.",
+   "risk": "Continuing downward momentum and relative weakness against the broader market.",
+   "invalidation": "A decisive break above the 20-day moving average or reclaiming prior highs.",
+   "source": "llm",
+   "ticker": "VRT",
+   "group": "semis_ai",
+   "price": 176.7,
+   "move_pct": 1.92,
+   "move_atr": 0.19,
+   "vol_pace": null,
+   "trend": "down",
+   "levels": {
+    "entry": 176.7,
+    "stop": 150.05,
+    "target": 212.04,
+    "stop_pct": 15.1,
+    "target_pct": 20.0,
+    "rr": 1.33,
+    "pullback_zone": [
+     194.21,
+     200.43
+    ]
+   },
+   "news": [
+    {
+     "title": "Vertiv Holdings Co (VRT) Lifts Sales And Dividend, Is The Pullback A Valuation Opportunity?",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZUhTUHZUN2taVTM0Wi1hNk9LM0ZtSVNISXlJc1BXOUFrZ3dnUUtERkxMSlE5STZhSTU2d0lUSV94b1JPRlh5MHdBcjB4M2xESGVHSFZHSVFqb0l3NldUY1N1bFpNWHdZZmJJMUJtR0hWQ094ZnYtOVA4TUxMckEtdzNnTmFPa3o2aWhGOVBWM3pzMC1Rc1o0SDlMNDRNeV9ZS0VfZTRva3Racl9rTE8wOG03QXdQRXRQdmRqb21pemE1bGhlZmhPQ1pDRFlaMzhsQTByNll30gHbAUFVX3lxTE1TMm8za3pFMWI3aDZsanNOQ1h1WWVDZ3NsT2JKTFUtZmxaY3FTRGZyaDJXeFB2YmQtUTZWZ3hwYUtpTXd6b25zQmFIbW9TT0g3emJEdWdVR1VBOHNndHh6T1F1cVdUTUI2S0k5cUZocGJ4UDJJbnRQd3lDb0FNRHRkaHVlR0JQWWZLSzZCRFRxVjl1Z2tSNm5OQy1mMU5FWXg2TDdJZ3JIazRSMTVtdVpkZGhsWDhQOUd4Qno3NjdUSjhKa1F4VmM1eEp0bVdieXF4cHBSX2tNMU1ZNA?oc=5",
+     "importance": 4,
+     "sentiment": "bullish"
+    },
+    {
+     "title": "VRT Nov 2026 150.000 call (VRT261127C00150000) stock price, news, quote and history",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGQlg1NWNOZUpmT1kyNWdFUnZpMENvUkNlUmE4eVNqZl9jT0hsajgxR2R2UjhzODNrNElGZ1JuTTZ3aC1naGZQUnlPaXNXQXNUR0thaGdkdlpDQUI3R3NuRHBqdVU?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "VRT Dec 2026 150.000 put (VRT261231P00150000) stock price, news, quote and history",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fc1gyU2pfQmN5d095RzVRUzk4Mlp5NFdEMnJpRHJwU0p2NmtES0kzM1JDNDlNNUx5MHRZUUE1aVpFZWJNaUtEek9vNGhBRHdiaTUxT1EtRHZYbmREUFo0dk5jZGg?oc=5",
+     "importance": 1,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 1,
+     "bullish": 8,
+     "bearish": 3,
+     "samples": [
+      "$VRT Pile of crap",
+      "$VRT seems like the selloff broadening hits the power and cooling names too. gear for racks not yet funded is still gear for racks, priced like delivery is guar",
+      "$VRT wth why can the us mkt now seem to not hold overnight gains.  Its frustrating."
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-27T14:56:33+00:00",
+   "trigger": [
+    "news"
+   ]
+  },
+  {
+   "action": "avoid",
+   "conviction": 3,
+   "why": "uptrend (above 50 and 200-day averages)",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 563.92.",
+   "source": "rules",
+   "ticker": "VRTX",
+   "group": "healthcare",
+   "price": 528.61,
+   "move_pct": -6.26,
+   "move_atr": -2.1,
+   "vol_pace": null,
+   "trend": "up",
+   "levels": {
+    "entry": 528.61,
+    "stop": 496.89,
+    "target": 634.33,
+    "stop_pct": 6.0,
+    "target_pct": 20.0,
+    "rr": 3.33,
+    "pullback_zone": [
+     537.04,
+     542.92
+    ]
+   },
+   "news": [
+    {
+     "title": "Vertex Pharmaceuticals (VRTX) Extends Drug Discovery Collaboration For Four Years",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSTVKNF96UXZGaHNTMDBlNzBfcEMtQnVvVXE5R1JHU09qQ245SXB1SmJVbEVkWXh6LVNoQVJZSElWTVdyNzRoRjBMUjlOczY4c3N0LUV4RU1VR29lU2hzN1EyNkkweGRuV3FZalN2ZjZJSmljR2NKWDJGb25mcGM1ajFWa1lYMXA1QWdha2F5T0kyX1J5dlNsZktpNU1vRHpad1dz?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Vertex Pharmaceuticals (VRTX) Climbed, What Is Behind The Latest Attention?",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTE1fWS1VLXRQV3hpVng5bFBicHBpU0JWcEZDWU04SmR2VGRCUngzYl9nSEJjQ1prckI4d1lzLVF3cG9ENXlkOVpFdV9rWXJMTTlwdzdYNXlTQTN1SXVrVWlTVU1LeW1iYmtvbHRjX0psZFVIeXlOc2xnOWZzRTU1Q2wzT0ctalhYMzJJTUtHTnJtc01USmMwU0VzdzhNUDhDenNNVjZrY1c0N09lbHR0RThkYlRoMDdpRlh5U0NqbDVkN1Bka2ZJMC0zdkxkUWpDVDRHdldXVkI1M0NEaVc3U3VLZ1N1R01ua2F1UtIB8gFBVV95cUxNb2pBMVVaSFViWFYxYUViYTBva2RhblpWeTFkVGFlOXhaTDdQWlJCS2N6TFJpUFNsbE8xNGYtaFJGdm9zNVlZbWQ5anRtR0VzQXpRY3I3Z2dndDNMSUQxT19RQkkybTVkYm9pTHRKeW1uTTBlLXZGaDd0bWctZGRNcDQ0MW1peDVlZXNjV0VOMTdSUEVRU2Zaazg3cmlvV3dSeEVKNEVrbGNsVko2dC1rb2RLNHh5eTYtWHNoS1FCVlllN0ZvQ0IwOWlHR0lUQWxWRWVaWnd6cVlnUlduUGtfYnhORE5pTEozXzAtMlNWYkdDZw?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "What Vertex Pharmaceuticals Shareholders Got Right",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/vertex-pharmaceuticals-shareholders-got-151442887.html?.tsrc=rss",
+     "importance": 2,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 8,
+     "bullish": 5,
+     "bearish": 2,
+     "samples": [
+      "$VRTX Oh man, this is not good for us bagholders! \ud83d\ude2dretraced right back to recent lows after hours.",
+      "@sawalker surprised me too imo. but a 3 month extension on a major amendment is not a rejection, FDA just wants more time with the added data. $VRTX clock moves",
+      "$VRTX faces a three-month FDA delay for povetacicept after the agency classifies additional information as a major amendment. https://notreload.xyz/xy/vertex-fa"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-25T21:30:53+00:00",
+   "trigger": [
+    "price move",
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 1,
+   "why": "downtrend",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 20.37.",
+   "source": "rules",
+   "ticker": "ENPH",
+   "group": "clean_power",
+   "price": 21.03,
+   "move_pct": 3.26,
+   "move_atr": 0.33,
+   "vol_pace": null,
+   "trend": "down",
+   "levels": {
+    "entry": 21.03,
+    "stop": 18.04,
+    "target": 25.24,
+    "stop_pct": 14.2,
+    "target_pct": 20.0,
+    "rr": 1.41,
+    "pullback_zone": [
+     25.26,
+     25.96
+    ]
+   },
+   "news": [
+    {
+     "title": "Enphase Energy (NASDAQ:ENPH) Reaches New 52-Week Low Following Analyst Downgrade",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd0RrVzItNDAtSVgwdm9vM3hxZHl5eURYc1lfWVVQMEttenpvTlRBM0JxRTdZTEtQRndpNGNjRm4xRFBGWmtYUG15UUNPUDJodVYyYy1kSzJCXzFSb3BrbzNvaVh4VUsySFFSR1ZKRFpFUUQ1Y0U4bjNIY0pYRldZT3UzcmxUbWR5c1pDdEM5OUw5Y09ZdmpRb2VzZXdGYXVNSzBleGl0TmZna0JMWUNENE92ZFExZGxBN3NTTXZ4VlRlbm5GSVFpMlp5MHpLenYxd09odA?oc=5",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Enphase Energy, Inc. (ENPH) Stock Price, News, Quote & History",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIeTk4UFg3RFZOVUZINTQ4dlZ6QW9MS1pERzB2VExvdEc3TTM5OGJZNFR5YlRvVjFpMFVqNl84VlRXSVJjSUhvcmI3MlZveVBsc3c?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Form 144 | Enphase Energy(ENPH.US) Director Proposes to Sell 3.49 Million in Common Stocks",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa0FrVmxKcTR1WHVxbmVqYjQtenJCSkNSMERaOXBvaUUtZ2ZKVlVxUC1nbncwcjVuZlB1Q0Y4eXRfdWdZVGcxeGlzcWhKVE5aay03RzFUOHFUNjVxTVZtTm5td2FndjlnNDZnQzJYNndSYkFrUTdLTU1TNWZHa2dSRk9ZemM1SFEtZU1laXVCT3Mxa21yQkU2Nmp5TjFzSTc0NU85cFBR?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 1,
+     "bullish": 8,
+     "bearish": 1,
+     "samples": [
+      "$ENPH Thanks for this.\n\nLet&#39;s try to work out some math on the SST.\n\nI would start with avoided cost. One sq ft in the data center white space for a standar",
+      "$ENPH The Enphase G5 battery in person (30 kwh).\nhttps://youtube.com/shorts/c4pnjF89UsY?is=RPtlMAn1aUDNXx_x",
+      "$ENPH Have a look at the Enphase IQ SST close up in 11:40\nhttps://youtu.be/yhe6GVEU-P4?is=d9JxG0aU5l7IZaeq"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-25T21:30:54+00:00",
+   "trigger": [
+    "news"
+   ]
+  },
+  {
+   "action": "avoid",
+   "conviction": 4,
+   "why": "GOOGL is in a clear downtrend below its 20, 50, and 200-day SMAs, experiencing heavy sell volume (4.47x) driven by AI capex fears and regulatory headwind headlines.",
+   "risk": "High selling momentum and negative news flow could drag price further despite oversold RSI.",
+   "invalidation": "A volume-backed rebound reclaiming the 20-day SMA at 285.64.",
+   "source": "llm",
+   "ticker": "GOOGL",
+   "group": "mega_tech",
+   "price": 264.82,
+   "move_pct": -5.1,
+   "move_atr": -1.24,
+   "vol_pace": 4.47,
+   "trend": "down",
+   "levels": {
+    "entry": 264.82,
+    "stop": 247.56,
+    "target": 317.78,
+    "stop_pct": 6.5,
+    "target_pct": 20.0,
+    "rr": 3.07,
+    "pullback_zone": [
+     282.76,
+     286.79
+    ]
+   },
+   "news": [
+    {
+     "title": "Alphabet Falls 4% on AI Credit Fears as Strategist Warns Capex Is \u201cAs Good as It Gets\u201d",
+     "link": "https://www.tikr.com/blog/alphabet-falls-4-on-ai-credit-fears-as-strategist-warns-capex-is-as-good-as-it-gets?ref=yahoofinance&tlnk=yf-261125-pwcg7rgj&.tsrc=rss",
+     "importance": 4,
+     "sentiment": "bearish"
+    },
+    {
+     "title": "Alphabet Faces $146 Million in Lawsuits From Malaysian Regulator",
+     "link": "https://finance.yahoo.com/technology/articles/alphabet-faces-146-million-lawsuits-125728052.html?.tsrc=rss",
+     "importance": 3,
+     "sentiment": "bearish"
+    },
+    {
+     "title": "Broadcom's Google TPU Scare Puts a New Spotlight on Its Other AI Customers",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVERXOU05Tjh0bnVSdXJIN1Y2Yi02SEpEV2kyOVYya21OZF9Nd0dTdlM5MVN4cVpXWFRHdzd1OGRMUVJ0Y3g1cWxISXZNZWNyYzhnVDNxMWxPaFY5WjFZcDI2RV9kNldVX2txVDZFNElUMjhYc0FxbmRBajAtOUE5WkozWEREZnBNeklrVDRVbV84S3BtblRxRldNTkZOZGJqRTdmelB2Wk9Qcjl6QnZn?oc=5",
+     "importance": 3,
+     "sentiment": "bearish"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 30,
+     "bullish": 5,
+     "bearish": 8,
+     "samples": [
+      "$GOOGL",
+      "$GOOGL down as much as $NVDA (30%) in 6 months\u2026unreal",
+      "Why are you buying $ANT without reliable earnings when you can pick up $GOOGL at a much cheaper P/E ratio today?  Buying more $GOOGL now."
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-25T16:01:27+00:00",
+   "trigger": [
+    "volume surge",
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 3,
+   "why": "Massive volume spike (13.3x) accompanied by a -5.5% drop below all major moving averages (SMA20, SMA50, SMA200) indicates intense selling pressure. Wait for price stabilization.",
+   "risk": "Heavy institutional selling could lead to further rapid downside extension.",
+   "invalidation": "Reclaiming the SMA200 at 381.37 on strong buying volume.",
+   "source": "llm",
+   "ticker": "TSLA",
+   "group": "autos",
+   "price": 363.47,
+   "move_pct": -5.51,
+   "move_atr": -1.12,
+   "vol_pace": 13.28,
+   "trend": "mixed",
+   "levels": {
+    "entry": 363.47,
+    "stop": 334.96,
+    "target": 436.16,
+    "stop_pct": 7.8,
+    "target_pct": 20.0,
+    "rr": 2.55,
+    "pullback_zone": [
+     378.6,
+     385.25
+    ]
+   },
+   "news": [],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 30,
+     "bullish": 2,
+     "bearish": 8,
+     "samples": [
+      "Gary Black (managing partner of The Future Fund) warns: &quot;an all-stock SpaceX bid for Tesla would dilute shareholders 52% and could push SPCX  below $100.&q",
+      "$TSLA needs to break above and hold for 367. With that being said, trying some puts here, and my stop will be 367",
+      "$AKAN $TSLA $SPY $NVDA"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-25T16:01:32+00:00",
+   "trigger": [
+    "volume surge"
+   ]
+  },
+  {
+   "action": "avoid",
+   "conviction": 3,
+   "why": "TSM is down 6.7% on massive 7.42x normal volume, trading well below its 20, 50, and 200-day SMAs with negative relative strength (-10.2% vs SPY).",
+   "risk": "Heavy selling volume and severe technical damage make entering long-only trades high risk.",
+   "invalidation": "Price reclaiming the 200-day SMA at 402.32 with volume stabilization.",
+   "source": "llm",
+   "ticker": "TSM",
+   "group": "semis_ai",
+   "price": 325.9,
+   "move_pct": -6.67,
+   "move_atr": -1.03,
+   "vol_pace": 7.42,
+   "trend": "mixed",
+   "levels": {
+    "entry": 325.9,
+    "stop": 291.91,
+    "target": 391.08,
+    "stop_pct": 10.4,
+    "target_pct": 20.0,
+    "rr": 1.92,
+    "pullback_zone": [
+     378.7,
+     386.63
+    ]
+   },
+   "news": [],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 3,
+     "bullish": 6,
+     "bearish": 2,
+     "samples": [
+      "$SNDK $NVDA $TSM $INTC $NVDA  \n \nif u think our markets are bad, how about the Korean KOSPI? it&#39;s down 50% so far this year! it looks like the SOXX needs to",
+      "$SNDK $MU $NVDA $TSM $INTC  \nyou wanna a safe stock? buy MCD. it&#39;s up today",
+      "$MU anyone else giving up on this trash? \n\nRotate to $TSM or $NVDA?"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-25T16:01:39+00:00",
+   "trigger": [
+    "volume surge"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 3,
+   "why": "High-volume +3.3% bounce off the 200-day SMA shows buyer interest, but price remains below the 20-day and 50-day SMAs with a weak 37.4 RSI.",
+   "risk": "Overhead resistance near 658-661 and weak short-term momentum could cut the bounce short.",
+   "invalidation": "A breakdown and close below the 200-day SMA at 613.12.",
+   "source": "llm",
+   "ticker": "DE",
+   "group": "industrials",
+   "price": 633.97,
+   "move_pct": 3.29,
+   "move_atr": 0.97,
+   "vol_pace": 3.43,
+   "trend": "mixed",
+   "levels": {
+    "entry": 633.97,
+    "stop": 595.93,
+    "target": 760.76,
+    "stop_pct": 6.0,
+    "target_pct": 20.0,
+    "rr": 3.33,
+    "pullback_zone": [
+     653.46,
+     660.73
+    ]
+   },
+   "news": [],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 12,
+     "bullish": 1,
+     "bearish": 5,
+     "samples": [
+      "$DE $DELL $DIA $QQQ $SPY market sense is never common sense.",
+      "$DE i wonder how they can say that farming will improve when they have been saying that for 4 years and it still has not the bullshit in this call is on another",
+      "$DE traded as low as $580 this morning out of the gate \n \nQuite the turnaround for the lackluster guidance"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-25T16:01:46+00:00",
+   "trigger": [
+    "volume surge"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 1,
+   "why": "downtrend",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 82.58.",
+   "source": "rules",
+   "ticker": "ALB",
+   "group": "materials",
+   "price": 80.63,
+   "move_pct": -2.36,
+   "move_atr": -0.49,
+   "vol_pace": null,
+   "trend": "down",
+   "levels": {
+    "entry": 80.63,
+    "stop": 74.64,
+    "target": 92.6,
+    "rr": 2.0,
+    "pullback_zone": [
+     90.94,
+     92.34
+    ]
+   },
+   "news": [
+    {
+     "title": "Albemarle (ALB) Stock Still Looks Undervalued On Its 68% Five Year Fall",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/albemarle-alb-stock-still-looks-031308796.html?.tsrc=rss",
+     "importance": 2,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Why Is Albemarle Stock's High Cash Yield Being Ignored?",
+     "link": "https://www.trefis.com/stock/alb/articles/628357/why-is-albemarle-stock-s-high-cash-yield-being-ignored/2026-11-24?.tsrc=rss",
+     "importance": 2,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "ALB261127C00095000 Interactive Stock Chart | ALB Nov 2026 95.000 call Stock",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PZ0pCMVpkOUpkZVlUOHFQRUF6bG9NeGFjWERsMEtXbUszQVcxWFpQUEk2YUUtSTZ5U0llazM4bXhSb2VVSXJDTWV4N3ZKRzVYVjFfYk5Fb3A5ZzdNb3A4?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 0,
+     "bullish": 7,
+     "bearish": 0,
+     "samples": [
+      "When you rank Clean Energy: EV &amp; Batteries stocks on deep value, $QS comes out on top \n \nThis looks for the lowest valuation across several measures at once",
+      "$ALB In short\u2026 spodumene concentrate inventories are up. Everything else is down as usual. Traders are slowing down transaction rates b/c no one wants to sell a",
+      "$ALB what&#39;s going on with this stock?"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-24T22:15:43+00:00",
+   "trigger": [
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 2,
+   "why": "unusual move without a clear catalyst",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 100.73.",
+   "source": "rules",
+   "ticker": "NEM",
+   "group": "materials",
+   "price": 99.69,
+   "move_pct": -1.03,
+   "move_atr": -0.2,
+   "vol_pace": null,
+   "trend": "mixed",
+   "levels": {
+    "entry": 99.69,
+    "stop": 92.03,
+    "target": 115.01,
+    "rr": 2.0,
+    "pullback_zone": [
+     110.28,
+     112.07
+    ]
+   },
+   "news": [
+    {
+     "title": "Can Newmont Stock Climb Back To $130?",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQekx0Vld5eXdmVUxSQ1piWFRVWGlnWTVrVEk0TzlhazZ6NmlJa0MzRll6NFNFQzdNTzRTcGplRHBqZkVJYzBRck00VVpLRDNsZm5FQUN2TmIxNEw0MmxUcDk3UEtnVzZSVWxSbXc2OHFla3hjQXAxSl9wUzZTZUp2Z2ptNEFiODVZeENNUExiLVc4WlhSNmZ0d0xoaw?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "NEM Nov 2026 75.000 call (NEM261127C00075000) Stock Price, News, Quote & History",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZNUdHRDZodEJObFNpemZ6akJxVkl3VXdrX2xkNmtOckpTYmdlN09KZ0Y1TC1ZZUN4dnM3bkU0UGJzaUFDamV6cVB0TkpPZ2g1RWRVbTYtRm5BLURwbzRvMGk5SE4?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "NEM Dec 2027 75.000 call (NEM271217C00075000) Stock Price, News, Quote & History",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IbVJrRV8yNjZScXRVZGxDb212TFB2Mjl2Z21DeEhBQ1ZzUlFtQ0htSWl4RTZpc29YSWlLZTNOaXBveEF4My0wZXNLOXFBSHRzYVBSWFZDMFhFRkV2SWpBRDQ5NlU?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 0,
+     "bullish": 12,
+     "bearish": 2,
+     "samples": [
+      "$MMTLP  $AEM  $NEM   \nMr. VBL explains.....heat...... \n \nhttps://x.com/Sorenthek/status/2125216678606725580?a=7jFH0430HxioTPdE4AQ&amp;s=20",
+      "$MMTLP  $NEM  $AEM   \nAaannnndd, there is .....demand......and then there is......demand.......so to speak, from an Ag perspective. \n \nhttps://x.com/SilverGold_",
+      "$MMTLP  $MMAT  $NEM $AEM  \nSoo,ooo, a record is.....a record.  For the first time ever, physical gold has been traded digitally.  Mr. VBL explains....this could"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-24T22:15:43+00:00",
+   "trigger": [
+    "news"
+   ]
+  },
+  {
+   "action": "consider_long",
+   "conviction": 5,
+   "why": "uptrend (above 50 and 200-day averages); volume 3.1x its normal pace; trading above its prior 20-day high",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 168.19.",
+   "source": "rules",
+   "ticker": "TGT",
+   "group": "consumer",
+   "price": 175.39,
+   "move_pct": 4.28,
+   "move_atr": 1.32,
+   "vol_pace": 3.09,
+   "trend": "up",
+   "levels": {
+    "entry": 175.39,
+    "stop": 167.19,
+    "target": 191.79,
+    "rr": 2.0,
+    "pullback_zone": [
+     157.85,
+     159.77
+    ]
+   },
+   "news": [
+    {
+     "title": "Target's Comeback Is On Track (Rating Upgrade) (NYSE:TGT)",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOd01Dd2l0YlNFcmJqTWUzcUtMRUEyaFA2VF8taW1TMWhFR3h4TnZqeHVpcGtxZEdqZ01MQnl4bjdzZF9BWVEyUThMVnNhZm12XzVDdmdKRkhEcUlaNEhFZ2NYSzAtUTI0b3Y4RWRWeG5TUThCNzhXdm5jRWo4VDZaU3BOMFJSZWNzdGU2eQ?oc=5",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Target (TGT) Earnings Beat Puts Its Valuation Back In Focus",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOGdERlZaQnhPT3FKcXpCbHJBQndaOGhLWDUtQjN5cHgxdE9IcDFNYVR2V1F3WU9naVZCUHF0ZVhKSllPMFhNWDVHYlpESFhvZ0xoRlZwR1RmSzhpVG91LXVrSElJU0ZuZzdQeGJJQkNka0ZyUkFBSGRjcVg5SzZ1bVhxTE9sd1FhTkRPbVpKSTBUUWFRVDVWaElB?oc=5",
+     "importance": 3,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Target (TGT), Why Is It Back In The Spotlight?",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ0tKejhac0FZMXBubUtsUVQ4UDNOa2UxbVlGdzRST0FOdXc4QjZYVDNtLXktelJaOG9KYl9Ydlc2bFZ2eW9UZFdPVWNjU29rV0tGQUc0RDFKaVVCb3NORGktREVsQzVMMzF5dnpSQ3RFNk9mZU5EcjVFQ0JfTUN1NVBMN2l0RFR3S2hTbmdXUXpjbDBrUmZlMl9HU1c5X0hiajYwMEhjZDZnWGdJSnhjVGJlZWXSAboBQVVfeXFMUDB6RmNIaEJlU3dXcmNxY01JcTdnTXNpS2tDLTNqN01IMFpZTWVLNVRmRlRkSXhvRk91NW5jZG1tZFFGRnJBRWFvWGNaT1NhUm1Hc1RlbWNGWDVzWXlldGQxQ2w1M0ZDRkJhTlNQaWM5M0dlRGVDbnYtajR4TkMtUXZQSkxBb0NmU1YwQTRFVzBEUEFUdGhVZzhpYTg0d3FPcjYzdlR0MTdaMGNkVnpCM0pLZHBHVGlFZXFB?oc=5",
+     "importance": 2,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 0,
+     "bullish": 5,
+     "bearish": 0,
+     "samples": [
+      "$TGT a suit alleges target up and up baby wipes recall left buyers without full refunds, per open class actions. lawsuit stage, nothing to claim. refunds, in co",
+      "$TGT is up 4.29% so far today, one of the biggest moves among large consumer defensive stocks. Here&#39;s the sector on Stock Meadow&#39;s heatmap: https://stoc",
+      "Target $TGT stock hit new 52 WEEK HIGHS \ud83d\udfe2 at some point today"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-24T20:52:06+00:00",
+   "trigger": [
+    "volume surge",
+    "live breakout",
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 2,
+   "why": "downtrend; volume 3.1x its normal pace",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 33.76.",
+   "source": "rules",
+   "ticker": "NKE",
+   "group": "consumer",
+   "price": 35.65,
+   "move_pct": 5.58,
+   "move_atr": 1.24,
+   "vol_pace": 3.11,
+   "trend": "down",
+   "levels": {
+    "entry": 35.65,
+    "stop": 33.37,
+    "target": 40.21,
+    "rr": 2.0,
+    "pullback_zone": [
+     37.22,
+     37.75
+    ]
+   },
+   "news": [
+    {
+     "title": "NIKE (NKE) On Reaffirmed Guidance And The Case For Undervaluation",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-reaffirmed-guidance-case-171440986.html?.tsrc=rss",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Nike NKE Stock Gains 6% on Upgrade as Dick's Sporting Goods Shares Surge after Third-Quarter Results",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa0ROcXJ1QVFjZVpZRklwZjVwX1FKcU1CUHZPZGxveUZ3b0Y3Ny02OEJJT2N2OFh4dmdOOVc0Qk1rVmljRmh0c0hFb2dXR3ZleWNWcmNZXzhUN2diTkJrek9DQ1hteWFUNGIybWcyR0Y2VldENlpILWxjRDhXb3FZZjZhaGlEZFZXVmZKaG4xRUtZZXVFM014YjRvOWlBUDVsek5ud3lNX2tUbGN6REhTUXhpd1FnSHE5bGh6bm9OaE0tclRXNDRjMDV4S0I5Wl94OFZjR3pkVnY?oc=5",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Nike\u2019s 2031 Plan Calls for Earnings to More Than Double. Here\u2019s What That Math Means for the Stock Today.",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQclRnTjhzVTJQUG5MQ1l1bHJOZHlyWWJpaUpUaEZEVXRORE0tSjR5VkJWcHVaQlllSU1hWTRZbm9ENTlsdDRwaHRkOWJDZy11cjF5a01PV09hSndQdFdKSVlfckJvOVRkeUNOeFBoZGRSSU5fUW5uRjlwNnpCVURmeGVjMEtNczhiaHU0NE1RYTVNalZra3FqRHJ6Mk1MYUNia1MyS1hwaThMVDdaN3Q4QjZYdV9vbGswX2RidTNCTFBja2VaZFhYekpB?oc=5",
+     "importance": 3,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 9,
+     "bullish": 7,
+     "bearish": 1,
+     "samples": [
+      "$NKE 35.49.. not 34.49.",
+      "$NKE hee hee",
+      "$DKS says $NKE new products are boosting customer demand. Despite inventory and discounting challenges, Jefferies sees Nike\u2019s wholesale business improving in FY"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-24T20:52:07+00:00",
+   "trigger": [
+    "volume surge",
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 3,
+   "why": "volume 4.1x its normal pace",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 334.91.",
+   "source": "rules",
+   "ticker": "DELL",
+   "group": "semis_ai",
+   "price": 297.17,
+   "move_pct": -11.27,
+   "move_atr": -0.99,
+   "vol_pace": 4.09,
+   "trend": "mixed",
+   "levels": {
+    "entry": 297.17,
+    "stop": 240.2,
+    "target": 411.11,
+    "rr": 2.0,
+    "pullback_zone": [
+     358.84,
+     372.13
+    ]
+   },
+   "news": [
+    {
+     "title": "Dell\u2019s Earnings Are Expected to Surge. The Stock Is a Tougher Call.",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55MEZwd3dvejJKRkJhZjk0SkJuUDBNTTJudWNnMHdmVWE5Qk1MUUVpZ3pmQi10WG80M3NqRWZEN1kzWWlTUWVZNU95MWRjVVRacHNQcWp1SFFNLWl6MEp2YkFqMFpza1hpM1NiUU5hS2hWWXZNZmc?oc=5",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Large-Cap Stocks: The Biggest Earnings Winners Grind Sandisk, Dell Into The Dust",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUHdBV0FJNVBkbnh6bFlhbC1VZ0JNdy11SnliZ2Jtek9sLTBNdVZjSmFINHpWLXpaVU5hZTJRckRaOTBfV3RxdGk5cE04ei1Mdy13UkdOUDJoLThtWkFJbVEwczdqaFd6WXpQTDUxLTI1cVdhb2JTMEFRbUlxQ2NBV3R3?oc=5",
+     "importance": 3,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "The Biggest Earnings Winners Grind Dell And Sandisk Into The Dust",
+     "link": "https://finance.yahoo.com/m/e45ffa23-8286-379b-b6e0-081e46a83f75/the-biggest-earnings-winners.html?.tsrc=rss",
+     "importance": 3,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 30,
+     "bullish": 6,
+     "bearish": 2,
+     "samples": [
+      "$DELL Recently entered at $322. Down quite a bit. Will hold. Medium term horizon.  Good luck to all bulls.",
+      "$DELL $NVDA $SNDK \n\nA little mico penis forming on Dell chart \ufffc",
+      "$DELL I&#39;m ready for some $DLLL dough."
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-24T20:52:07+00:00",
+   "trigger": [
+    "volume surge",
+    "news"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 3,
+   "why": "volume 3.8x its normal pace",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 165.05.",
+   "source": "rules",
+   "ticker": "NVDA",
+   "group": "semis_ai",
+   "price": 154.21,
+   "move_pct": -6.57,
+   "move_atr": -0.82,
+   "vol_pace": 3.84,
+   "trend": "mixed",
+   "levels": {
+    "entry": 154.21,
+    "stop": 134.37,
+    "target": 193.88,
+    "rr": 2.0,
+    "pullback_zone": [
+     175.6,
+     180.23
+    ]
+   },
+   "news": [
+    {
+     "title": "Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDlVU2VRdnRlNnhCclpLeGFWdzRRS0NKQWpDcWNFYnBvVVpRTWowd2V0eGFNVU5ndElhLXR6SFVUUnVYQTlHTnZId3F2dGt2UWFiNDgtYUVLd0Q0ejZoS0NCTnhEaUtxczJPMDMtanhHODkzeG05Qm1lYWNkT0JqTmI5dnXSAYoBQVVfeXFMTzFzUEhwd2QzS3htT0FwNzU5NnlTbGF6WTdYbENqX2lLbkZHWUMtMmpOM2hEdVI2a3E0c3ZuQUNiWFB4Y1NkckhBeWVlWXlaM0JzeEtxZTlIdmdWOXhXeFo5UHpWNnVoQS16UE52YmRZVnlTdUN4ZWl6Wkg1c1dhRDdnR0lBUzNCZ09n?oc=5",
+     "importance": 3,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Even With Jensen Huang Back as CEO, Nvidia Is Down 31% From Its High, While Broadcom Is Down 35%. Here\u2019s the Better Buy Now.",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSXl4eU4zS3NEWWNUc1FZWkVSanFzYzM5VzlYbXBwQVduaFZTMTI2T21TdVZ4OEZpbl9EM21Kb2dTaEZIZHVnWEJURnVpb0NkdmwwT1pVRnhHSTBhMFJ2MzZ2d0JjU0JsX0FvbThyOU9XQVVsWnBGTjdtQnpiUU1YWkVxdjQyMW9xRkpPeXBjRlJKTFBHZ3l2NE9zcnFHZUxzU3FOZkRaQ25KUGZ4SUxweEQ3aU5Lb3ZYUWV0UFliSURBV2VwUm1EcVB2VFdMdWpqUXBpMkk3UDFLNnRKNWFoZDVnNVJlN1ZCZGJnMVMxVmN5UDg?oc=5",
+     "importance": 3,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Nvidia stock falls after epic rally on Jensen Huang's return as CEO",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ2VuMWM0TmxDX1JHckNONUktS3M3eFVSbDVJeWQ0bWZsUFlhWTZ6dkZWSi1lUTlZUjVnamk5OTQ4bTBBc2ViWHJzekF0cTlWSlo0blR1ZkU2RDNYVU5QbnJOaDcwZVlmWlljTHEwRV9wQ2pfdG9nNG1icTZvcnBwalZFZGRCa3Q0dTNvQ2dWcVdzTnlGcHZEajN4ME5URDNTTV9RODhxSWQzdlBTZUZDZTF1ZkExektQMVhibk5PdFoyMEJfMmtIYnZR?oc=5",
+     "importance": 3,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 30,
+     "bullish": 15,
+     "bearish": 3,
+     "samples": [
+      "$NVDA",
+      "$SPY $BTC.X $NVDA $ETH.X $MU bitcoin and the stock market has realigned. the 4 year cycle begins",
+      "$NVDA \n\nFkn Wallstreet thieves\u2026we absolutely have no power \ud83d\udd95\ud83c\udffe"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-24T20:52:07+00:00",
+   "trigger": [
+    "volume surge"
+   ]
+  },
+  {
+   "action": "watch",
+   "conviction": 2,
+   "why": "unusual move without a clear catalyst",
+   "risk": "Gaps and news-driven moves can fade fast; size for the stop, not the hope.",
+   "invalidation": "Falls back below the previous close of 597.6.",
+   "source": "rules",
+   "ticker": "META",
+   "group": "mega_tech",
+   "price": 591.26,
+   "move_pct": -1.06,
+   "move_atr": -0.26,
+   "vol_pace": null,
+   "trend": "mixed",
+   "levels": {
+    "entry": 591.26,
+    "stop": 554.39,
+    "target": 665.01,
+    "rr": 2.0,
+    "pullback_zone": [
+     610.77,
+     619.38
+    ]
+   },
+   "news": [
+    {
+     "title": "Don\u2019t Rush to Buy Meta Stock Yet Despite the Crash",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXhId0NFZWluMWd5TWo4Z01OVGsxTWRPT0hrRWdkczVSUUtxXzg2OFNnY0lpYnhOTmc1ODdxeW9wdWFtUU1SVFJuSGhabERLZkZha0JTNlFQSjFQMzlVMm5hQlM5ZDNoamNIbmIxWFQtUmRJek1PQnRtZlRER0VsdEIwS2pCMXRsUG1lZ1d1YmJBMU41VC1CMg?oc=5",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Meta\u2019s AI Chief Warns \u201cSuperintelligence Is Arriving.\u201d Lawmakers Are Now Quoting Him to Push a Ban",
+     "link": "https://www.tikr.com/blog/metas-ai-chief-warns-superintelligence-is-arriving-lawmakers-are-now-quoting-him-to-push-a-ban?ref=yahoofinance&tlnk=yf-261123-9pc7cv6p&.tsrc=rss",
+     "importance": 4,
+     "sentiment": "neutral"
+    },
+    {
+     "title": "Why Is Meta Stock Up Today? Shares Jump 6.55% to $597.60 as AI Trade Rebounds on Nvidia CEO News",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVTBFUEFmLTVrdl81WU5IYmFDak8yNG5QZkx0OWFRRnI5UUFpTXA2YmhGZUNaVlZkMXlCblNuaEZWN2VMUmFydk0wVk16MW5rOEJxRjBTS242OUdGMXZaTmZuUzN6R1g0Vmk3RlFvWDRIRjdwbzRDMTNfcUFtMXlDSXRRU2podnZRQTVwOEFkTDh0b0pYdDFIOFRqYTdhX2JlcFNxZ1ZMWjd5c3V3WEJXWDdR?oc=5",
+     "importance": 4,
+     "sentiment": "neutral"
+    }
+   ],
+   "social": {
+    "stocktwits": {
+     "source": "stocktwits",
+     "messages": 30,
+     "last_hour": 3,
+     "bullish": 1,
+     "bearish": 2,
+     "samples": [
+      "$META BANG!!!!!!!!!",
+      "$META alphabet, amazon, meta and microsoft borrowed $214 billion combined this year for ai. buybacks used to be the bid under this name. now the bid is a bond d",
+      "$META seems like the talent war is its own capex. nine figure pay packages to chase models that depreciate in months. people cost more when everyone bids at onc"
+     ]
+    },
+    "x": null
+   },
+   "time": "2026-11-24T10:38:57+00:00",
+   "trigger": [
+    "news"
+   ]
+  }
+ ]
+}
